@@ -1,0 +1,39 @@
+{
+  "name": "ssi-middleware",
+  "version": "0.1.0",
+  "description": "Express middleware to render Server Side Includes",
+  "author": "Felix Gnass",
+  "license": "MIT",
+  "homepage": "http://github.com/fgnass/ssi-middleware",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fgnass/ssi-middleware"
+  },
+  "engines": {
+    "node": ">= 6.4"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "ssi",
+    "express",
+    "middleware",
+    "server-side-includes"
+  ],
+  "dependencies": {
+    "request-promise-native": "^1.0.5",
+    "string-replace-async": "^1.2.1",
+    "tamper": "^1.0.0",
+    "util.promisify": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "eslint-config-prettier": "^2.7.0",
+    "eslint-plugin-prettier": "^2.3.1",
+    "express": "^4.16.2",
+    "jest": "^21.2.1",
+    "prettier": "^1.8.2"
+  }
+}

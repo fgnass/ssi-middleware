@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`middleware 1`] = `
+"<html>
+  STATIC FILE
+
+  DYNAMIC CONTENT
+</html>
+"
+`;

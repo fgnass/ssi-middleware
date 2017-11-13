@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`file 1`] = `"<html>file:/path</html>"`;
+
+exports[`virtual 1`] = `"<html>virtual:/path</html>"`;
